@@ -1,7 +1,25 @@
 # Load Type Prediction for Power System Optimization
 
-## Overview
-This repository contains a machine learning project aimed at predicting the load type of a power system. The project involves the development of a predictive model using historical data to optimize power system operations. The key steps of the project include data preprocessing, exploratory data analysis (EDA), feature engineering, model selection, and evaluation.
+## Problem Statement
+The primary objective of this project is to develop a machine learning model capable of predicting the load type of a power system based on historical data. The "Load_Type" categorization includes "Light_Load", "Medium_Load", and "Maximum_Load". This classification problem requires candidates to apply their skills in data preprocessing, exploratory data analysis (EDA), feature engineering, model selection, and model evaluation to predict the load type accurately.
+
+## Dataset Details
+The dataset provided for this task contains several features that are crucial for understanding and predicting the load type of a power system. These features include:
+- Date_Time: Continuous-time data taken on the first of the month
+- Usage_kWh: Industry Energy Consumption (Continuous kWh)
+- Lagging_Current_Reactive.Power_kVarh: Continuous kVarh
+- Leading_Current_Reactive_Power_kVarh: Continuous kVarh
+- CO2(tCO2): Continuous ppm
+- Lagging_Current_Power_Factor: Continuous
+- Leading_Current_Power_Factor: Continuous
+- NSM: Number of Seconds from midnight (Continuous S)
+- Load_Type: Categorical (Light Load, Medium Load, Maximum Load)
+
+## Evaluation Criteria
+To assess the model's performance, an appropriate validation strategy will be implemented, using the last month of data as the test set. Metrics specific to classification problems, such as accuracy, precision, recall, and F1-score, will be used for evaluation.
+
+## Code
+The code for this project is available in the `notebooks/` directory. The main notebook, `Load Type Prediction for Power System Optimization.ipynb`, details the entire project workflow, including data preprocessing, exploratory data analysis, feature engineering, model selection, and evaluation.
 
 ## File Structure
 - `data/`: Contains the dataset (`load_data.csv`) used for training and testing the model.
