@@ -1,0 +1,2 @@
+# Load-Type-Prediction-for-Power-System-Optimization
+This repository contains a machine learning project focused on predicting the load type of a power system based on historical data. The project involves data preprocessing, exploratory data analysis (EDA), feature engineering, model selection, and evaluation. The goal is to develop an accurate predictive model to optimize power system operations.
